@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class NetworkUI : NetworkBehaviour
 {
+    [SerializeField] private Button _serverButton;
     [SerializeField] private Button _hostButton;
     [SerializeField] private Button _clientButton;
     [SerializeField] private TextMeshProUGUI _connectedPlayersCount;
@@ -14,6 +15,11 @@ public class NetworkUI : NetworkBehaviour
 
     private void Awake()
     {
+        _serverButton.onClick.AddListener(() =>
+        {
+            NetworkManager.Singleton.StartServer();
+        });
+
         _hostButton.onClick.AddListener(() =>
         {
             NetworkManager.Singleton.StartHost();
