@@ -36,12 +36,12 @@ public class PlayerController : NetworkBehaviour
         MoveAndRotate();
     }
 
-    public override void OnNetworkSpawn()
+ /*   public override void OnNetworkSpawn()
     {
         var spawnRng = Random.insideUnitCircle * spawnRadius;
         var startPosition = new Vector3(defaultSpawnPos.x + spawnRng.x, defaultSpawnPos.y, defaultSpawnPos.z + spawnRng.y);
         transform.position = startPosition;
-    }
+    }*/
 
     private void PlayerInput()
     {
