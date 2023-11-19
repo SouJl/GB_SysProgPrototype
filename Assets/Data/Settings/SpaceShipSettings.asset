@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 817868168f41eb24b966b566c82aac1c, type: 3}
+  m_Script: {fileID: 11500000, guid: be2a8f5b9e26f3f49b78e9a7424a41ef, type: 3}
   m_Name: SpaceShipSettings
   m_EditorClassIdentifier: 
-  acceleration: 0.0124
-  shipSpeed: 1193
-  faster: 5
-  normalFov: 60
-  fasterFov: 39.3
-  changeFovSpeed: 0.5
+  _acceleration: 0.0124
+  _shipSpeed: 1193
+  _faster: 5
+  _normalFov: 60
+  _fasterFov: 39.5
+  _changeFovSpeed: 0.5
