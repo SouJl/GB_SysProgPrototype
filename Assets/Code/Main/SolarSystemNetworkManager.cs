@@ -22,6 +22,7 @@ namespace Main
 
             response.PlayerPrefabHash = null;
 
+
             var startPos = GetStartPosition();
 
             response.Position = startPos;
